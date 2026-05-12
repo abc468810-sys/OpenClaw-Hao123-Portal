@@ -1,0 +1,16 @@
+{
+  "name": "openclaw-hao123-portal",
+  "version": "0.1.0",
+  "description": "中俄台跨境套利 AI OS：项目评分、内容包、视频包、H5 自动生成。",
+  "private": true,
+  "scripts": {
+    "arbitrage": "node scripts/arbitrage-calculator.js",
+    "content": "node scripts/content-package-generator.js",
+    "video": "node scripts/video-script-generator.js",
+    "h5": "node scripts/h5-page-generator.js",
+    "build": "node scripts/build-all.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
