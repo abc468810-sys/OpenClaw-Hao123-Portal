@@ -31,6 +31,29 @@
       </div>
     </section>
 
+    <section class="panel dark">
+      <h2>AI 项目筛选器</h2>
+
+      <form id="project-form" class="form-grid">
+        <input name="name" placeholder="项目名称" />
+        <input name="purchasePrice" type="number" placeholder="中国采购价" />
+        <input name="salePrice" type="number" placeholder="俄罗斯售价" />
+        <input name="shippingCost" type="number" placeholder="物流成本" />
+        <input name="certCost" type="number" placeholder="认证/EAC成本" />
+        <input name="platformCost" type="number" placeholder="平台抽成" />
+
+        <input name="lowRegulation" type="number" min="0" max="10" placeholder="低监管评分" />
+        <input name="lightAsset" type="number" min="0" max="10" placeholder="轻资产评分" />
+        <input name="招商" type="number" min="0" max="10" placeholder="招商能力评分" />
+        <input name="viral" type="number" min="0" max="10" placeholder="裂变能力评分" />
+        <input name="aiScale" type="number" min="0" max="10" placeholder="AI 放大评分" />
+
+        <button type="submit">开始分析</button>
+      </form>
+
+      <div id="result" class="result-box"></div>
+    </section>
+
     <section id="tools" class="panel">
       <h2>核心工具分类</h2>
       <div class="card-grid">
@@ -63,26 +86,10 @@
             <li><a href="https://github.com/yaojingang/yao-open-prompts">yao-open-prompts</a></li>
           </ul>
         </article>
-
-        <article class="card">
-          <h3>俄罗斯业务工具</h3>
-          <p>用于俄罗斯网络、电商、认证、土地拍卖与贸易资料查询。</p>
-          <ul>
-            <li><a href="https://www.ozon.ru">Ozon</a></li>
-            <li><a href="https://www.wildberries.ru">Wildberries</a></li>
-            <li><a href="https://www.avito.ru">Avito</a></li>
-            <li><a href="https://www.farpost.ru">FarPost</a></li>
-            <li><a href="https://torgi.gov.ru">torgi.gov.ru</a></li>
-            <li><a href="https://github.com/MayersScott/rkn-block-checker">rkn-block-checker</a></li>
-          </ul>
-        </article>
       </div>
     </section>
-
-    <section class="panel dark">
-      <h2>下一步要复刻的系统</h2>
-      <p>AI 项目筛选器：输入一个商品、资源或项目，自动输出利润、监管、物流、认证、招商和 AI 放大评分。</p>
-    </section>
   </main>
+
+  <script src="assets/app.js"></script>
 </body>
 </html>
