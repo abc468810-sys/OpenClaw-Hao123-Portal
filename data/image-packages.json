@@ -1,0 +1,56 @@
+[
+  {
+    "project": "俄罗斯蜂蜜",
+    "cover": {
+      "size": "1080x1440",
+      "use": "小红书封面 / 微信封面",
+      "title": "俄罗斯蜂蜜：中俄跨境新机会",
+      "prompt": "premium business poster, dark technology style, Russian Far East natural honey, China market opportunity, cinematic lighting, clean typography, mobile social media cover"
+    },
+    "longPoster": {
+      "size": "1080x3000",
+      "use": "微信长图 / 招商长图",
+      "title": "俄罗斯蜂蜜｜AI招商项目说明",
+      "prompt": "long vertical H5 poster for Russian honey project, sections for opportunity, business model, AI automation, risk note, call to action, premium business layout"
+    },
+    "telegramBanner": {
+      "size": "1280x720",
+      "use": "Telegram / YouTube 横版封面",
+      "title": "俄罗斯蜂蜜 | Russia-China Opportunity",
+      "prompt": "horizontal banner, Russia China trade route, honey jars, AI dashboard, professional investor presentation style"
+    },
+    "productCard": {
+      "size": "1080x1080",
+      "use": "项目卡片 / 朋友圈图",
+      "title": "俄罗斯蜂蜜",
+      "prompt": "square product opportunity card, natural honey, Russian Far East, China market, clean business design"
+    }
+  },
+  {
+    "project": "俄罗斯泥炭土",
+    "cover": {
+      "size": "1080x1440",
+      "use": "小红书封面 / 微信封面",
+      "title": "俄罗斯泥炭土：农业资源招商机会",
+      "prompt": "premium agricultural resource poster, peat soil, Russian Far East, China gardening market, dark green business style"
+    },
+    "longPoster": {
+      "size": "1080x3000",
+      "use": "微信长图 / 招商长图",
+      "title": "俄罗斯泥炭土｜区域代理招商说明",
+      "prompt": "long vertical poster for peat soil distribution project, agriculture, soil improvement, agency model, clean H5 layout"
+    },
+    "telegramBanner": {
+      "size": "1280x720",
+      "use": "Telegram / YouTube 横版封面",
+      "title": "Russian Peat Soil | China Distribution Opportunity",
+      "prompt": "horizontal business banner, soil, agriculture, Russia China trade, logistics, AI dashboard"
+    },
+    "productCard": {
+      "size": "1080x1080",
+      "use": "项目卡片 / 朋友圈图",
+      "title": "俄罗斯泥炭土",
+      "prompt": "square agricultural product card, peat soil, clean design, agency business opportunity"
+    }
+  }
+]
