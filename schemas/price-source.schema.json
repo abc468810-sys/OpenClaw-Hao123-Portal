@@ -1,0 +1,30 @@
+{
+  "name": "price-source-schema",
+  "description": "中俄跨境套利价格采集标准字段",
+  "fields": {
+    "productName": "商品名称",
+    "sourcePlatform": "来源平台，如 Ozon、Wildberries、Avito、FarPost、1688、淘宝、拼多多",
+    "sourceUrl": "商品链接",
+    "country": "价格所属国家，如 Russia、China、Taiwan",
+    "currency": "币种，如 RUB、CNY、USD、USDT",
+    "price": "商品价格",
+    "shippingCost": "预估物流成本",
+    "platformFee": "平台抽成或手续费",
+    "certificationCost": "EAC、SGR、清关、认证等成本",
+    "taxCost": "税费成本",
+    "minimumOrderQuantity": "最小采购量",
+    "stockStatus": "库存状态",
+    "sellerName": "卖家名称",
+    "sellerRating": "卖家评分",
+    "capturedAt": "采集时间",
+    "notes": "备注"
+  },
+  "scoringUse": [
+    "中国低价 vs 俄罗斯高价",
+    "计算单件毛利",
+    "计算利润率",
+    "识别价格洼地",
+    "判断是否适合招商",
+    "判断是否适合 Ozon/WB 销售"
+  ]
+}
