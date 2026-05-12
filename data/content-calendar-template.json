@@ -1,0 +1,42 @@
+[
+  {
+    "day": 1,
+    "platform": "小红书",
+    "contentType": "机会型短视频",
+    "topic": "俄罗斯远东被低估的项目",
+    "goal": "吸引项目关注",
+    "cta": "引导查看项目排行榜"
+  },
+  {
+    "day": 2,
+    "platform": "Telegram",
+    "contentType": "招商视频",
+    "topic": "俄罗斯蜂蜜招商",
+    "goal": "收集合作咨询",
+    "cta": "联系获取项目资料"
+  },
+  {
+    "day": 3,
+    "platform": "视频号",
+    "contentType": "AI自动化演示",
+    "topic": "AI如何自动生成招商视频",
+    "goal": "建立AI系统认知",
+    "cta": "关注AI OS"
+  },
+  {
+    "day": 4,
+    "platform": "VK",
+    "contentType": "俄语短视频",
+    "topic": "中国市场对俄罗斯资源的需求",
+    "goal": "建立俄语流量入口",
+    "cta": "查看合作方案"
+  },
+  {
+    "day": 5,
+    "platform": "小红书",
+    "contentType": "图文/H5",
+    "topic": "俄罗斯泥炭土项目",
+    "goal": "展示商业模式",
+    "cta": "获取招商H5"
+  }
+]
