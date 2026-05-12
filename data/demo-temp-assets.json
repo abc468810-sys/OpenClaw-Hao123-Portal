@@ -4,9 +4,17 @@
   "note": "当前素材来自用户上传，用于 Demo V2 临时展示。后续可替换为高清正式图片、正式视频、供应链图片和包装图。",
   "images": [
     {
+      "id": "forest-honey-poster",
+      "name": "森林蜂蜜高质广告海报",
+      "usage": "Demo 主海报 / 小红书封面 / 微信封面 / 高级产品包装示范",
+      "source": "/mnt/data/蜜蜂照片1_副本.png",
+      "status": "uploaded",
+      "note": "画面完成度高，适合做临时主视觉；俄语品牌感强，但上线前需确认文字、网址和品牌归属。"
+    },
+    {
       "id": "market-honey-closeup",
       "name": "蜂蜜摊位近景",
-      "usage": "Demo 主视觉 / 产品展示 / 小红书封面参考",
+      "usage": "真实市场素材 / 产品展示 / 小红书封面参考",
       "source": "/mnt/data/bfdebbf44d5bdb502edcaef2d02561c5.jpg",
       "status": "uploaded"
     },
@@ -35,6 +43,7 @@
     }
   ],
   "nextReplacementNeeded": [
+    "确认森林蜂蜜海报文字和品牌归属",
     "单瓶蜂蜜高清产品图",
     "蜂场/蜂巢/采蜜源头图",
     "海参崴/远东环境图",
