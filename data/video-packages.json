@@ -1,0 +1,54 @@
+[
+  {
+    "project": "俄罗斯蜂蜜",
+    "title": "俄罗斯蜂蜜 AI 招商视频",
+    "coverTitle": "俄罗斯蜂蜜：AI 放大的跨境项目",
+    "shortVideo30s": [
+      {
+        "time": "0-3秒",
+        "role": "旁白",
+        "text": "很多人看到的是卖蜂蜜，但真正的机会是把俄罗斯资源做成 AI 招商项目。"
+      },
+      {
+        "time": "3-15秒",
+        "role": "旁白",
+        "text": "俄罗斯远东天然蜂蜜，结合中国私域、小红书和 Telegram 测试，形成可裂变的内容体系。"
+      },
+      {
+        "time": "15-30秒",
+        "role": "旁白",
+        "text": "AI 自动生成 H5、视频、俄语资料和招商页面，快速测试市场反馈。"
+      }
+    ],
+    "prompts": {
+      "sora": "cinematic Russia Far East honey business documentary, premium natural honey, China market, AI dashboard overlay, investor style video",
+      "seedance": "Russian Far East honey opportunity, cinematic trade story, AI media automation, vertical social media style"
+    }
+  },
+  {
+    "project": "俄罗斯泥炭土",
+    "title": "俄罗斯泥炭土招商视频",
+    "coverTitle": "俄罗斯农业资源：泥炭土项目",
+    "shortVideo30s": [
+      {
+        "time": "0-5秒",
+        "role": "旁白",
+        "text": "俄罗斯远东除了能源，还有被低估的农业资源。"
+      },
+      {
+        "time": "5-15秒",
+        "role": "旁白",
+        "text": "泥炭土适合园艺、农业、家庭种植和土壤改良市场。"
+      },
+      {
+        "time": "15-30秒",
+        "role": "旁白",
+        "text": "通过 AI 自动化内容与招商系统，可以快速验证区域代理模式。"
+      }
+    ],
+    "prompts": {
+      "sora": "peat soil agriculture business, Russian Far East farmland, China market demand, cinematic agriculture documentary",
+      "seedance": "Russian peat soil project, agricultural distribution opportunity, AI media automation"
+    }
+  }
+]
