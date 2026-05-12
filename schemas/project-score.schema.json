@@ -1,0 +1,37 @@
+{
+  "name": "project-score-schema",
+  "description": "中俄台跨境套利项目评分标准",
+  "maxScore": 100,
+  "dimensions": {
+    "profit": {
+      "weight": 30,
+      "description": "利润空间。毛利率越高，分数越高。"
+    },
+    "regulation": {
+      "weight": 20,
+      "description": "监管难度。监管越低，分数越高。"
+    },
+    "assetLight": {
+      "weight": 15,
+      "description": "轻资产程度。越适合预售、代发、代理，分数越高。"
+    },
+    "distribution": {
+      "weight": 15,
+      "description": "招商能力。越适合省代、市代、区域代理，分数越高。"
+    },
+    "aiScale": {
+      "weight": 10,
+      "description": "AI 放大能力。越适合内容、H5、自动客服、自动报价，分数越高。"
+    },
+    "viral": {
+      "weight": 10,
+      "description": "裂变传播能力。越适合短视频、私域、社群传播，分数越高。"
+    }
+  },
+  "decisionRules": {
+    "STRONG_GO": "综合分 >= 80 且利润分 >= 70",
+    "GO": "综合分 >= 65",
+    "WATCH": "综合分 >= 50",
+    "NO_GO": "综合分 < 50"
+  }
+}
