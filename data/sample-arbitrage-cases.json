@@ -1,0 +1,42 @@
+[
+  {
+    "product": "工业开关电源 24V 10A",
+    "chinaPriceCNY": 85,
+    "russiaPriceRUB": 4800,
+    "estimatedLogisticsCNY": 18,
+    "estimatedEACCostCNY": 8,
+    "platform": "Ozon",
+    "model": "中国供货 → 俄罗斯 Ozon 销售",
+    "analysis": "轻资产、适合 B2B/B2C、可预售。"
+  },
+  {
+    "product": "空气炸锅",
+    "chinaPriceCNY": 140,
+    "russiaPriceRUB": 9900,
+    "estimatedLogisticsCNY": 35,
+    "estimatedEACCostCNY": 20,
+    "platform": "Wildberries",
+    "model": "中国小家电 → 俄罗斯电商",
+    "analysis": "利润较高，但 EAC 和售后必须处理。"
+  },
+  {
+    "product": "俄罗斯泥炭土",
+    "chinaPriceCNY": 45,
+    "russiaPriceRUB": 600,
+    "estimatedLogisticsCNY": 15,
+    "estimatedEACCostCNY": 0,
+    "platform": "中国代理渠道",
+    "model": "俄罗斯资源 → 中国代理招商",
+    "analysis": "适合招商模式和区域代理。"
+  },
+  {
+    "product": "俄罗斯蜂蜜",
+    "chinaPriceCNY": 55,
+    "russiaPriceRUB": 1200,
+    "estimatedLogisticsCNY": 12,
+    "estimatedEACCostCNY": 0,
+    "platform": "私域/直播",
+    "model": "俄罗斯原料 → 中国品牌化",
+    "analysis": "适合 AI 内容营销。"
+  }
+]
