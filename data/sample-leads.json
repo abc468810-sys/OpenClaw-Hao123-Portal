@@ -1,0 +1,32 @@
+[
+  {
+    "leadId": "lead-001",
+    "sourcePlatform": "Telegram",
+    "projectName": "俄罗斯蜂蜜",
+    "customerType": "贸易商",
+    "country": "China",
+    "city": "Hangzhou",
+    "budgetRange": "50000-100000 CNY",
+    "contactMethod": "telegram:@example",
+    "interestLevel": "high",
+    "status": "contacted",
+    "notes": "对俄罗斯蜂蜜分装与品牌合作感兴趣",
+    "createdAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "leadId": "lead-002",
+    "sourcePlatform": "小红书",
+    "projectName": "俄罗斯泥炭土",
+    "customerType": "代理",
+    "country": "China",
+    "city": "Guangzhou",
+    "budgetRange": "100000-300000 CNY",
+    "contactMethod": "wechat:example",
+    "interestLevel": "medium",
+    "status": "proposal_sent",
+    "notes": "希望了解区域代理模式",
+    "createdAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  }
+]
