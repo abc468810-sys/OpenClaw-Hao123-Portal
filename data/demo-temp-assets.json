@@ -1,0 +1,44 @@
+{
+  "project": "俄罗斯蜂蜜 Demo V2 临时展示素材",
+  "status": "temporary-demo-assets",
+  "note": "当前素材来自用户上传，用于 Demo V2 临时展示。后续可替换为高清正式图片、正式视频、供应链图片和包装图。",
+  "images": [
+    {
+      "id": "market-honey-closeup",
+      "name": "蜂蜜摊位近景",
+      "usage": "Demo 主视觉 / 产品展示 / 小红书封面参考",
+      "source": "/mnt/data/bfdebbf44d5bdb502edcaef2d02561c5.jpg",
+      "status": "uploaded"
+    },
+    {
+      "id": "market-honey-wide",
+      "name": "蜂蜜摊位全景",
+      "usage": "市场场景 / 供应端证明 / 商业展示区",
+      "source": "/mnt/data/cc6ab7dcebd2b9b6e5216b0afc5b5c3a.jpg",
+      "status": "uploaded"
+    },
+    {
+      "id": "market-products-detail",
+      "name": "蜂蜜与农产品局部",
+      "usage": "产品丰富度 / 细节展示 / H5 内容区",
+      "source": "/mnt/data/e582586ca5228420c6f6d8f302b80c91.jpg",
+      "status": "uploaded"
+    }
+  ],
+  "videos": [
+    {
+      "id": "market-video-01",
+      "name": "蜂蜜摊位临时视频",
+      "usage": "Demo 视频展示区 / 后续剪辑成 15-30 秒招商短视频",
+      "source": "/mnt/data/d55635261509533efc6a313ea93d921e.mp4",
+      "status": "uploaded"
+    }
+  ],
+  "nextReplacementNeeded": [
+    "单瓶蜂蜜高清产品图",
+    "蜂场/蜂巢/采蜜源头图",
+    "海参崴/远东环境图",
+    "仓库/装箱/物流图",
+    "正式包装/礼盒图"
+  ]
+}
