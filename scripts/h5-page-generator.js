@@ -72,7 +72,39 @@ function buildH5(project) {
       <h2>风险提醒</h2>
       <p>${risk}</p>
       <p>本页面仅用于商业研究与招商材料准备，不构成收益承诺。</p>
+      <p><a href="index.html">返回 H5 页面库</a></p>
     </section>
+  </main>
+</body>
+</html>`;
+}
+
+function buildIndex(pages) {
+  const links = pages.map(page => `
+    <article class="card">
+      <h3>${escapeHtml(page.name)}</h3>
+      <p>${escapeHtml(page.category)}</p>
+      <p><a href="${page.file}">打开招商 H5</a></p>
+    </article>
+  `).join('');
+
+  return `<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>招商 H5 页面库</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="badge">Generated H5 Library</div>
+    <h1>招商 H5 页面库</h1>
+    <p>由项目数据库自动生成，可用于微信、私域、Telegram、项目展示。</p>
+    <div class="hero-actions"><a href="../index.html">返回 AI OS 首页</a></div>
+  </header>
+  <main class="panel">
+    <div class="card-grid">${links}</div>
   </main>
 </body>
 </html>`;
@@ -85,13 +117,17 @@ function main() {
 
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-  projects.forEach(project => {
+  const pages = projects.map(project => {
     const slug = slugify(project.name);
-    const filePath = path.join(outputDir, `${slug}.html`);
+    const file = `${slug}.html`;
+    const filePath = path.join(outputDir, file);
     fs.writeFileSync(filePath, buildH5(project), 'utf8');
+    return { name: project.name, category: project.category, file };
   });
 
-  console.log(`Generated ${projects.length} H5 pages in generated-h5/`);
+  fs.writeFileSync(path.join(outputDir, 'index.html'), buildIndex(pages), 'utf8');
+
+  console.log(`Generated ${projects.length} H5 pages and index in generated-h5/`);
 }
 
 main();
