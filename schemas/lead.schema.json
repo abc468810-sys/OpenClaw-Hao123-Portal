@@ -1,0 +1,26 @@
+{
+  "name": "lead-schema",
+  "description": "招商线索记录字段",
+  "fields": {
+    "leadId": "线索ID",
+    "sourcePlatform": "来源平台，如小红书、微信、Telegram、VK、网站",
+    "projectName": "意向项目",
+    "customerType": "客户类型，如代理、贸易商、供应商、投资人",
+    "country": "国家",
+    "city": "城市",
+    "budgetRange": "预算区间",
+    "contactMethod": "联系方式",
+    "interestLevel": "意向等级：high、medium、low",
+    "status": "跟进状态：new、contacted、qualified、proposal_sent、closed、lost",
+    "notes": "备注",
+    "createdAt": "创建时间",
+    "updatedAt": "更新时间"
+  },
+  "usage": [
+    "记录招商反馈",
+    "判断哪个平台有效",
+    "判断哪个项目更容易转化",
+    "回流优化项目数据库",
+    "形成招商漏斗"
+  ]
+}
