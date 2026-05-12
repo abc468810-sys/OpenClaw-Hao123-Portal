@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>招商线索 Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="badge">Lead Dashboard</div>
+    <h1>招商线索 Dashboard</h1>
+    <p>记录平台来源、意向项目、客户类型、预算区间和跟进状态，用于优化项目数据库和内容方向。</p>
+    <div class="hero-actions">
+      <a href="index.html">返回首页</a>
+      <a href="dashboard.html">项目排行榜</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>线索概览</h2>
+      <div id="lead-summary" class="criteria-grid"></div>
+    </section>
+
+    <section class="panel dark">
+      <h2>线索列表</h2>
+      <div id="lead-list" class="card-grid"></div>
+    </section>
+  </main>
+
+  <script src="assets/leads.js"></script>
+</body>
+</html>
