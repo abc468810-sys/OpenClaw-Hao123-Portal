@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 自动素材预览</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="badge">AI Media Preview</div>
+    <h1>自动生成素材预览</h1>
+    <p>这里展示系统自动生成的图片 Prompt、视频脚本、视频 Prompt 和版式结构。当前为静态预览版，后续可接真实 AI 图片/视频 API。</p>
+    <div class="hero-actions">
+      <a href="index.html">返回首页</a>
+      <a href="demo.html">打开 Demo V1</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel dark">
+      <h2>图片素材包预览</h2>
+      <div id="image-preview-list" class="card-grid"></div>
+    </section>
+
+    <section class="panel">
+      <h2>视频素材包预览</h2>
+      <div id="video-preview-list" class="card-grid"></div>
+    </section>
+
+    <section class="panel dark">
+      <h2>下一步</h2>
+      <div class="criteria-grid">
+        <div>接 Sora API</div>
+        <div>接图片 API</div>
+        <div>生成真实封面</div>
+        <div>生成真实视频</div>
+        <div>自动字幕</div>
+        <div>自动配音</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/media-preview.js"></script>
+</body>
+</html>
